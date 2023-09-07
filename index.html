@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>HTML and CSS Cheat Sheet</title>
+  </head>
+  <body>
+    <div id="header">
+      <h1>HTML and CSS Cheat Sheet</h1>
+    </div>
+    <nav id="nav">
+      <ul>
+            <li><a href="#HBasics">HTML Basics</a></li>
+            <li><a href="#Tables">HTML Tables</a></li>
+            <li><a href="#Selectors">CSS Selectors</a></li>
+            <li><a href="#CSSB">CSS Properties</a></li>
+      </ul>
+    </nav>
+    <div id="HBasics">
+      <h3>HTML Basics</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Tags</th>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="code">&lt; p &gt;</td>
+            <td>Paragraph</td>
+            <td>Used to create a paragraph</td>
+          </tr>
+          <tr>
+            <td class="code">&lt; h &gt; (h1-h6)</td>
+            <td>Header</td>
+            <td>
+              Used to create a header where 1 is the largest and 6 is the
+              smallest
+            </td>
+          </tr>
+          <tr>
+            <td class="code">&lt; br &gt;</td>
+            <td>Break</td>
+            <td>Used to break sentances in paragraphs</td>
+          </tr>
+          <tr>
+            <td class="code">&lt; !DOCTYPE html &gt;</td>
+            <td>Document declaration</td>
+            <td>Necessary to have at the beginning of any HTML document</td>
+          </tr>
+          <tr>
+            <td class="code">&lt; html &gt;</td>
+            <td>HTML</td>
+            <td>Used to define the whole HTML document</td>
+          </tr>
+          <tr>
+            <td class="code">&lt; head &gt</td>
+            <td>Document head</td>
+            <td>Needed to declare the head of the document</td>
+          </tr>
+          <tr>
+            <td class="code">&lt; title &gt;</td>
+            <td>Title</td>
+            <td>
+              Placed inside the document head inorder to give your webpage a
+              title in the tab (not the actual page title)
+            </td>
+          </tr>
+          <tr>
+            <td class="code">&lt; body &gt;</td>
+            <td>Body</td>
+            <td>Needed to declare the body of the document</td>
+          </tr>
+          <tr>
+            <td class="code">&lt; footer &gt;</td>
+            <td>Footer</td>
+            <td>Needed to decalre the footer of the document</td>
+          </tr>
+          <tr>
+            <td class="code">&lt; a &gt;</td>
+            <td>Anchor</td>
+            <td>HTML links are define with the anchor tag</td>
+          </tr>
+          <tr>
+            <td class="code">&lt; img &gt;</td>
+            <td>Image</td>
+            <td>HTML images are degine with the image tag</td>
+          </tr>
+          <tr>
+            <td class="code">href</td>
+            <td>href</td>
+            <td>
+              located inside the opening anchor tag the href is used to define
+              the link
+            </td>
+          </tr>
+          <tr>
+            <td class="code">src</td>
+            <td>src</td>
+            <td>
+              located inside the image or media tag, src is used to define the
+              content being displ
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div id="Tables">
+      <h3>HTML Tables</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Tags</th>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="code">&lt; table &gt;</td>
+            <td>Table</td>
+            <td>Used to define an HTML table</td>
+          </tr>
+          <tr>
+            <td class="code">&lt; thead &gt;</td>
+            <td>Table Head</td>
+            <td>Used to define the head of the table</td>
+          </tr>
+          <tr>
+            <td class="code">&lt; tbody &gt;</td>
+            <td>Table Body</td>
+            <td>Used to define the body of the table</td>
+          </tr>
+          <tr>
+            <td class="code">&lt; tfoot &gt;</td>
+            <td>Table Footer</td>
+            <td>Used to define the footer of the table</td>
+          </tr>
+          <tr>
+           <td class="code">&lt; tr &gt;</td>
+            <td>Table Row</td>
+            <td>Used to define a row in the table</td>
+          </tr>
+          <tr>
+            <td class="code">&lt; td &gt;</td>
+            <td>Table Data</td>
+            <td>
+              Placed inbetween the table row and is used to define data added to
+              the table
+            </td>
+          </tr>
+          <tr>
+            <td class="code">colspan</td>
+            <td>Column Span</td>
+            <td>Defines how many columns a table data should span</td>
+          </tr>
+          <tr>
+            <td class="code">rowspan;</td>
+            <td>Row Span</td>
+            <td>Defines how many rows a table data should span</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div id="Selectors">
+      <h3>CSS Selectors and Specificity</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Tags</th>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="code">body</td>
+            <td>Body</td>
+            <td>used to select every element in the body</td>
+          </tr>
+          <tr>
+            <td class="code">h1-6</td>
+            <td>Heading</td>
+            <td>Used to select every heading in the document from h1 to h6</td>
+          </tr>
+          <tr>
+            <td class="code">#id-name</td>
+            <td>ID</td>
+            <td>
+              Used to select specific sections in an HTML document where an ID
+              has been assigned to it
+            </td>
+          </tr>
+          <tr>
+            <td class="code">.class-name</td>
+            <td>Class</td>
+            <td>
+              Used to select specific sections in an HTML document where a Class
+              has been assigned to it
+            </td>
+          </tr>
+          <tr>
+            <td class="code">*</td>
+            <td>Universal</td>
+            <td>Used to select all elements insde an HTML document</td>
+          </tr>
+          <tr>
+            <td class="code">h1, p, h2 (examples)</td>
+            <td>Grouping</td>
+            <td>
+              Used to select multiple elements in an HTML document that require
+              the same styling using 1 line of CSS code
+            </td>
+          </tr>
+          <tr>
+            <td class="code">element(p).class-name</td>
+            <td>Specific Selector Class</td>
+            <td>
+              Used to target specific elements in this example a paragrah that
+              has a specific class assigned to it
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div id="CSSB">
+      <h3>CSS Properties</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Tags</th>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="code">color:</td>
+            <td>color</td>
+            <td>Used to change the color of the text or foreground of an element</td>
+          </tr>
+          <tr>
+            <td class="code">background-color:</td>
+            <td>Background Color</td>
+            <td>Used to change the background color of an element</td>
+          </tr>
+          <tr>
+           <td class="code">font-weight:</td>
+            <td>Font Weight</td>
+            <td>used to set the weight or the thickness of the font for example making text bold</td>
+          </tr>
+          <tr>
+            <td class="code">margin:</td>
+            <td>Margin</td>
+            <td>Used to determine the size of the margin for an element</td>
+          </tr>
+          <tr>
+            <td class="code">margin-top/right/bottom/left:</td>
+            <td>Margin</td>
+            <td>Self explanitory</td>
+          </tr>
+          <tr>
+            <td class="code">font-family:</td>
+            <td>Font Family</td>
+            <td>Used to determine the font family of a text element for exampl serif</td>
+          </tr>
+          <tr>
+            <td class="code">font-size:</td>
+            <td>Font Size</td>
+            <td>Used to determine the size of the font</td>
+          </tr>
+          <tr>
+            <td class="code">border:</td>
+            <td>Border</td>
+            <td>Used to give an element a border</td>
+          </tr>
+          <tr>
+            <td class="code">font-style:</td>
+            <td>Font Style</td>
+            <td>Used to determine the style of the font used for example italic</td>
+          </tr>
+          <tr>
+            <td class="code">border-width:</td>
+            <td>Border Width</td>
+            <td>Self explanitory</td>
+          </tr>
+          <tr>
+            <td class="code">letter-spacing:</td>
+            <td>letter Spacing</td>
+            <td>Self explanitory</td>
+          </tr>
+          <tr>
+            <td class="code">word-spacing:</td>
+            <td>Word Spacing</td>
+            <td>Self explanitory</td>
+          </tr>
+          <tr>
+            <td class="code">max-width:</td>
+            <td>Max Width</td>
+            <td>Self explanitory</td>
+          </tr>
+          <tr>
+            <td class="code">min-width:</td>
+            <td>Minimum Width</td>
+            <td>Self-explanitory</td>
+          </tr>
+          <tr>
+            <td class="code">padding:</td>
+            <td>Padding</td>
+            <td>Used to determine the padding of an element</td>
+          </tr>
+          <tr>
+            <td class="code">padding-top/right/bottom/left:</td>
+            <td>Padding</td>
+            <td>self-explanitory</td>
+          </tr>
+          <tr>
+            <td class="code">opacity:</td>
+            <td>Opacity</td>
+            <td>used to determine the opacity in HTML elements</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+  <footer>
+    <h4>Created By: Marcos Figueiredo</h4>
+    <h4>Date Created: 7/09/2023 - 8/09/2023</h4>
+  </footer>
+</html>
